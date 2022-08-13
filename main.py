@@ -31,4 +31,24 @@ def top_days():
 def top_hashtagas():
     pass
 
-top_emiters()
+print("Eliga una opción (1, 2, 3 o 4")
+print("1. Top retweeted")
+print("2. Top emisores")
+print("3. Top dias")
+print("4. Top hashtags")
+
+elige = input()
+while not elige in ["1", "2", "3", "4"]:
+    print("Opcion invalida, intente de nuevo")
+
+if elige == "1": 
+    top_retweeted()
+
+elif elige == "2":
+    top_emiters()
+
+elif elige == "3":
+    top_days()
+
+else:
+    top_hashtagas()
