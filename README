@@ -2,3 +2,5 @@ Se requiere el archivo farmers-protest-tweets-2021-03-5.json tal como indican en
 Tiene que estar en la raiz de la carpeta.  
 
 Se requiere Pandas.
+
+Solo funciona la primera solicitud, pero al ser sobre manejo de Git no me quice complicar más con eso. 

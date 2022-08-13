@@ -4,13 +4,6 @@ from pandas.io.json import json_normalize
 # Use parte del codigo entregado en la misma pagina donde se encontraba el JSON
 # https://www.kaggle.com/code/prathamsharma123/clean-raw-json-tweets-data
 
-print("hola")
-
-# raw_tweets = pd.read_json('farmers-protest-tweets-2021-03-5.json', lines=True)
-# raw_tweets = raw_tweets[raw_tweets['lang']=='en']
-# print("Shape: ", raw_tweets.shape)
-# print(raw_tweets.head(5))
-
 def top_retweeted():
     raw_tweets = pd.read_json('farmers-protest-tweets-2021-03-5.json', lines=True)
     raw_tweets = raw_tweets[raw_tweets['lang']=='en']
@@ -31,7 +24,7 @@ def top_days():
 def top_hashtagas():
     pass
 
-print("Eliga una opción (1, 2, 3 o 4")
+print("Eliga una opción (1, 2, 3 o 4)")
 print("1. Top retweeted")
 print("2. Top emisores")
 print("3. Top dias")
